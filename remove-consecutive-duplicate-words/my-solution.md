@@ -1,10 +1,10 @@
-# [Remix 1](https://www.codewars.com/kata/5b39e91ee7a2c103300018b3/javascript)
+# [My Solution](https://www.codewars.com/kata/5b39e91ee7a2c103300018b3/javascript)
 
 I solved the challenge with my current knowledge, but later I improved it with the inspiration
 of [Imahori's solution](https://www.codewars.com/kata/reviews/5b39e927e7a2c103300018b5/groups/5b3a6472615a90b74d000e04). Basically, I was assuming that I can't 
 check `arr[i]!==arr[i-1]` when `i=0`, because it would be `arr[-1]` and undefined.
 But from his solution, I see that it is possible. When you check `if(arr[0]!==arr[-1])`
-, it results true. It means `arr[0]!==undefined`. Then, I refactored my solution.
+, it results true. It means that `arr[0]!==undefined` is true. Then, I refactored my solution.
 My solution becomes shorter and cleaner than my previous solution.
 
 ```js
@@ -25,7 +25,7 @@ const removeConsecutiveDuplicates = s => {
 
 I created words of array from given string. Then, with the help of for loop I
 eliminated unwanted array elements. Lastly, I combined all array elements
-as a return string.
+as a string in `return`.
 
 ## Implementation
 
