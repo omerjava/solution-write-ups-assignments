@@ -54,8 +54,7 @@ non-repeating words as a string.
 
 ## References
 
-I solved the challenges with my previous JS knowledge. But, I can recommend
-some references for array methods which are very useful in problem solving.
+I can recommend some references for array methods which are very useful in problem solving.
 [Javascript.info](https://javascript.info/array-methods),
 [W3schools](https://www.w3schools.com/js/js_array_methods.asp),
 [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
