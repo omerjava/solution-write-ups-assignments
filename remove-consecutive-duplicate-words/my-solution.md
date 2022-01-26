@@ -50,7 +50,7 @@ non-repeating words as a string.
 
 - curly brackets of `if` statement can be removed
 - ternary operator can be used instead of `if`
-- `filter()` method can be used instead of for loop
+- `filter()` method can be used instead of `for` loop
 
 ## References
 
