@@ -23,25 +23,25 @@ const removeConsecutiveDuplicates = s => {
 
 ## Strategy
 
-I created words of array from given string. Then, with the help of for loop I
+I created words of array from given string. Then, with the help of `for` loop I
 eliminated unwanted array elements. Lastly, I combined all array elements
 as a string in `return`.
 
 ## Implementation
 
-**`split()` method**: Using split method, I created an array of words from 
+**`split()` method**: Using split method, I created an array of words from
 given string. Really useful method.
 
 **empty array**: I created an empty array to push filtered array elements later.
 
-**for loop**: To filter array elements I chose to use for loop. I could
+**`for` loop**: To filter array elements I chose to use `for` loop. I could
 have used `filter()` also but `arr[-1]` issue which I mentioned above
 led me to use for loop. I like this loop also. Very powerful.
 
 **`if` statement**: `if` statement is used to find and eliminate repeating words.
 
 **`push()` method**: Push method is used to send non-repeating words to a new
-empty array which created before for loop.
+empty array which created before `for` loop.
 
 **`join()` method**: At the end, in `return`, I used join method to combine
 non-repeating words as a string.
