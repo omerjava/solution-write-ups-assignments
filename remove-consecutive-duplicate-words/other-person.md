@@ -1,49 +1,32 @@
-# [userName](link-to-user)
+# [Imahori](https://www.codewars.com/users/Imahori)
 
 ```js
-
+const solution = s => s.split(" ").filter((x,i,arr) => x!=arr[i-1]).join(" ");
 ```
 
 ## Strategy
 
-<!--
-  Describe what strategy they used to pass this challenge.
-  Careful! your strategy description should not mention
-    the code they wrote to solve the challenge.
-
-  Practice describing their strategy at a higher level:
-  a simple way to understand strategy is to think of the important steps
-  between the argument values and the return values.
-
-  For example if they use a `for` loop
-  you won't mention that `i` was incremented,
-  but you might mention how the final result changes at each iteration.
--->
+He started with splitting given string to an array of words. Then, he eliminated words in the array which are the same with previous words. And lastly, he combined remaining words as a string in return.
 
 ## Implementation
 
-<!--
-  Describe the solution written by this user.
-  How did they use JS to implement their strategy?
-  What language features did they use?
-  What decisions do you think they made and why?
--->
+**`=>` function**: Arrow function is used in the solution probably because of its simplicity. Since there is only one argument, parentheses are not used for it. Since, there is only one expression in the code block, braces are not used. Also `return` keyword is not required, since if there is only one expression in an arrow function, return is implied.
+
+**`split()` method**: The given string has been converted to a words array using `split(" ")` method with a space
+between quotation marks.
+
+**`filter()` method**: `filter()` method is used with value, index, array (x,i,arr) parameters to check whether
+certain array element is same with previous array element. If so, they are removed.
+
+**`=>` function in `filter()` method**: Since there are 3 argument, parentheses are used. Since, there is only one expression in the code block, braces and `return` are not used.
+
+**`join()` method**: Lastly, `join(" ")` method is used with a space between quotation marks to combine all remaining words in the array and to get a string in return.
 
 ## Possible Refactors
 
-<!--
-  List a couple changes you could make in their code without changing their strategy.
-  For example:
-    `while` loops and `for` loops can often be interchanged.
-    `if else`, `switch case` and `_ ? _ : _` can sometimes be interchanged.
-
-  You don't need to actually rewrite the function.
-  The goal of this section is that you exploring different JS language features
-  and think of different ways to implement the same strategy.
--->
+This solution doesn't need any refactoring, I think.
+But, if wanted, traditional function instead of arrow function or `for` loop instead of `filter()` can be used.
 
 ## References
 
-<!--
-  links that helped you to understand this solution or to think of possible refactors
--->
+[Arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)

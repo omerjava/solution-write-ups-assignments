@@ -82,7 +82,7 @@ When you check `if(arr[0]!==arr[-1])`, it results true. It means that `arr[0]!==
 
 ### Continue Doing
 
-Continue solving code challenges. It is much more useful than restudying theory again an again.
+Continue solving code challenges. It is much more useful than restudying theory again and again.
 Keep going on checking and studying other solutions. Really helpful to enhance knowledge and vision.
 
 ### Start Doing
@@ -91,4 +91,4 @@ Get used to terminal using.
 
 ### Stop Doing
 
-Being pessimistic. 
+Being pessimistic.

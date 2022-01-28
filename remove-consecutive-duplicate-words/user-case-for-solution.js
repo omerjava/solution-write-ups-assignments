@@ -8,7 +8,7 @@ const solution = sentence => {
     }
     return result.join(" ");
 }
-
+// first case
 const userInput = prompt('Enter your question please?');
 const isAnyTypo = solution(userInput);
 if(isAnyTypo!==userInput){ 
@@ -19,6 +19,7 @@ else{
     alert(message);
 }
 
+//second case
 const userEssay = prompt('Enter your essay here..');
 const revisedEssay = solution(userEssay);
 alert(revisedEssay);
