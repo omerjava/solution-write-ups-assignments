@@ -52,7 +52,7 @@ describe('Example tests', () => {
 ## Use Cases
 
 The function can be useful for revising writing mistakes of user input in web or software applications. Though,
-its capacity to correct such mistakes is limited, since the code itself has limited behavior.
+its capacity to correct grammar mistakes is limited, since the code itself has limited behavior.
 
 In collecting user data, inquiries, demands:
 
