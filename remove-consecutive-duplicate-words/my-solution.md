@@ -8,8 +8,8 @@ But from his solution, I see that it is possible. When you check `if(arr[0]!==ar
 My solution becomes shorter and cleaner than my previous solution.
 
 ```js
-const removeConsecutiveDuplicates = s => {
-    const arr=s.split(" ");
+const removeConsecutiveDuplicates = sentence => {
+    const arr=sentence.split(" ");
     const result=[];
     for(let i=0; i<arr.length; i++){
         if(arr[i]!==arr[i-1]) {

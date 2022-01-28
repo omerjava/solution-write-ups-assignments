@@ -31,18 +31,18 @@ const solution2 = s => s.split(" ").reduce((acc, item, i, arr) => {
 
 for (const solution of [mySolution, solution1, solution2]) {
   describe(`${solution.name}: removeConsecutiveDuplicateWords`, () => {
-    describe('word groups', () => {
-      it('some repeating words 1', () => {
+    describe('Example tests', () => {
+      it('it should handle repeating words-test1', () => {
         expect(solution("alpha alpha beta beta gamma gamma delta alpha beta beta gamma gamma delta"))
         .toEqual("alpha beta gamma delta alpha beta gamma delta");
       });
-      it('some repeating words 2', () => {
+      it('it should handle repeating words-test2', () => {
         expect(solution("gap gap new red red red yes yes"))
         .toEqual("gap new red yes");
       });
-      it('some repeating words 3', () => {
-        expect(solution("blue blue ca car car black car black block"))
-        .toEqual("blue ca car black car black block");
+      it('it should handle repeating words-test3', () => {
+        expect(solution("Hello, my name is is John. His name is Jack."))
+        .toEqual("Hello, my name is John. His name is Jack.");
       });
     });
   });
