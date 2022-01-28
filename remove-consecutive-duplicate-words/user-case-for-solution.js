@@ -20,9 +20,11 @@ else{
 }
 
 //second case
+/*
 const userEssay = prompt('Enter your essay here..');
 const revisedEssay = solution(userEssay);
 alert(revisedEssay);
+*/
 
 
 
